@@ -9,7 +9,7 @@ import axios from 'axios';
 getData()
 async function getData() {
   try {
-    const url = 'acf753afec5b54977868f83e14b19264-612015271.us-east-2.elb.amazonaws.com';
+    const url = 'http://a2c5842ddb11d473aaeccc493afda81f-1331587790.us-east-2.elb.amazonaws.com:5000/users';
     const response = await axios.get(url);
     console.log(response.data);
   } catch (error) {

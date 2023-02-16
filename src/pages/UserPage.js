@@ -193,13 +193,13 @@ export default function UserPage() {
                           </Stack>
                         </TableCell>
                         <TableCell align="left">תל אביב</TableCell>
-                        <TableCell align="left">{company}</TableCell>
+                        <TableCell align="left">{'https://www.instagram.com/p/CoiLKUpjrqV/?next=%2F'}</TableCell>
                         <Box style={{display: 'flex',flexDirection: 'column',padding: '0px'}}>
                         <TableCell align="left" style={{padding: '0px'}}>{tt[0]}</TableCell>
-                        <TableCell align="left" style={{padding: '0px'}}>{tt[3]}</TableCell>
-                        <TableCell align="left" style={{padding: '0px'}}>{tt[2]}</TableCell>
+                        <TableCell align="left" style={{padding: '0px'}}>{tt[5]}</TableCell>
+                        <TableCell align="left" style={{padding: '0px'}}>{tt[8]}</TableCell>
                         </Box>
-                        <TableCell align="left">{isVerified ? '7' : '3'}</TableCell>
+                        <TableCell align="left">{"6"}</TableCell>
 
                         <TableCell align="left">
                           <Label color={(status === 'banned' && 'error') || 'success'}>{sentenceCase(status)}</Label>
