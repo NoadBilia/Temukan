@@ -1,21 +1,21 @@
 import { faker } from '@faker-js/faker';
 import { sample } from 'lodash';
-
+import axios from 'axios';
 
 // ----------------------------------------------------------------------
 
 
 
-// getData()
-// async function getData() {
-//   try {
-//     const url = 'http://fs1.co.il/bus/xbox2.php';
-//     const response = await axios.get(url);
-//     console.log(response.data);
-//   } catch (error) {
-//     console.error(error);
-//   }
-// }
+getData()
+async function getData() {
+  try {
+    const url = 'acf753afec5b54977868f83e14b19264-612015271.us-east-2.elb.amazonaws.com';
+    const response = await axios.get(url);
+    console.log(response.data);
+  } catch (error) {
+    console.error(error);
+  }
+}
 
 
 
